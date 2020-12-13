@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(157, 255, 173);
+}
+div[id^=layer]{
+    margin: auto;
+    height: 625px;
+}
+div#layer1{
+    background: rgb(255, 126, 255);
+    width: 85%;
+}
+div#layer2{
+    background:rgb(255, 88, 255);
+    width: 90%;
+}
+div#layer3{
+    background: rgb(255, 67, 255);
+    width: 85%;
+}
+div#layer4{
+    width: 80%;
+}
+section#form{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 625px;
+    width: 100%;
+    border: 2px solid rgb(255, 0, 255);
+    background: url(./bgimg/image_6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: animatebg;
+}
+section#form div#form{
+    padding: 0;
+    margin: auto;
+    height: 500px;
+    width: 70%;
+    top: 10%;
+    left: 15%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.144);
+    border: 3px solid rgb(255, 0, 255);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+}
+section#form div#form h1{
+    color: black;
+    margin: 10px;
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section#form div#form form#info input[type="text"],[type="password"]{
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: cursive;
+    caret-color: rgb(255, 0, 255);
+    color: rgb(255, 0, 255);
+    outline-color: violet;
+    background: rgb(255, 255, 255);
+    outline: transparent;
+    border: 50px solid rgb(255, 0, 255);
+    border-top:  transparent;
+    border-bottom: transparent;
+}
+section#form div#form form#info input[type="text"]:hover,[type="password"]:hover{
+    background: transparent;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    border: 10px solid violet;
+    border-top:   transparent;
+    border-bottom: transparent;
+    cursor: pointer;
+}
+section#form div#form form#info button{
+    background: rgb(255, 0, 255);
+    color: white;
+    font-size: 2em;
+    font-family: cursive;
+    outline: transparent;
+    border-radius: 10px;
+    width: 40%;
+}
+section#form div#form form#info button:hover{
+    cursor: pointer;
+    color: black;
+    background: violet;
+    border: 0px solid white;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-right: 40px solid white;
+    border-left:40px solid white;
+    transition: 1s;
+}
+section#form div#form p{
+    font-size: 1.5em;
+    margin: 30px;
+}
+section#form div#form p a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section#form div#form p a:hover{
+    text-decoration: underline;
+    color :violet;
+    transition: 1s;
+    transition-delay: 0.2s;
+}
+section#form p#dev{
+    top: 95%;
+    left: 23%;
+    position: absolute;
+    color: black;
+    background: violet;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

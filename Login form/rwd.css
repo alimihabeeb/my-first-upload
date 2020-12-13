@@ -1,0 +1,45 @@
+@media screen and (max-width:600px) {
+    body{
+        width: 100%;
+        background: none;
+    }
+    div#layer1{
+        background: none;
+        width: 100%;
+    }
+    div#layer2{
+        background: none;
+        width: 100%;
+    }
+    div#layer3{
+        background:none;
+        width: 100%;
+    }
+    div#layer4{
+        background: none;
+        width: 100%;
+    }
+    section#form{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:992px) {
+    section#form div#form form#info input[type="text"],[type="password"]{
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+    section#form div#form form#info input[type="text"]:hover,[type="password"]:hover{
+        background: white;
+    }
+    section#form div#form form#info button:hover{
+        border-left:18px solid white;
+        border-right:18px solid white;
+    }
+    section#form p#dev{
+        left: 15%;
+        font-size: 1.5em;
+        color: rgb(255, 255, 255);
+    }
+}
